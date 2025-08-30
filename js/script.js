@@ -53,3 +53,8 @@ form.addEventListener("submit", async (e) => {
         alert("Oops! There was a problem sending your message.");
     }
 });
+
+// ✅ Mobile navbar toggle
+document.querySelector(".menu-toggle").addEventListener("click", () => {
+  document.querySelector(".nav-links").classList.toggle("show");
+});
