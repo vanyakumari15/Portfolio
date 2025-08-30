@@ -168,7 +168,7 @@ ul {
     font-size: 1.8rem;
     font-weight: 500;
     color: var(--secondary-color);
-    margin: 10px 0 20px;
+    margin: 10px 0 10px;
     text-align: center;          /* Keep text in center */
     display: inline-block;       /* Prevents left shifting */
     white-space: nowrap;         /* Prevents text wrap */
@@ -181,6 +181,10 @@ ul {
     to { width: 23ch; }  /* 👈 Same number as above */
 }
 
+.texttext{
+    font-size: 20px;
+    font-weight: 600;
+}
 .social-icons a {
     display: inline-block;
     margin: 0 15px;
